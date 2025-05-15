@@ -1,0 +1,29 @@
+.content-footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+
+}
+
+.content-footer > .btn-nova-admissao{
+    margin-left: 5px;
+    color: white;
+    background-color: #125D79;
+    border: none;
+    padding: 0.50rem;
+    cursor: pointer;
+    border: 1px solid #125D79;
+}
+
+.content-footer > .btn-dicas-abertura-conta{
+    margin-left: 5px;
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 0.50rem;
+    cursor: pointer;
+    border: 1px solid #125D79;
+}

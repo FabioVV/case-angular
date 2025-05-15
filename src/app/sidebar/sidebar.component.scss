@@ -1,0 +1,29 @@
+.sidebar {
+    background-color: #165C7D;
+    height: 100vh;
+    text-align: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.sidebar > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.sidebar > ul > li {
+    cursor: pointer;
+}
+
+.sidebar > ul > li:not(:first-child){
+    margin-top: 15px;
+}
+
+.sidebar > ul > li:first-child{
+    padding-top: 15px;
+}
+
+.sidebar > ul > li > img {
+}
