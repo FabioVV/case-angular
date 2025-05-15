@@ -1,17 +1,28 @@
-# AilosTest
+# 🧪 Teste de Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
+Este repositório reúne a solução para um case proposto de Angular
 
-## Development server
+---
 
-To start the project, run the following commands:
+## ⚙️ Tecnologias Utilizadas
+
+- TypeScript
+- Angular v19
+
+---
+
+## ▶️ Como Executar
 
 ```bash
+# Clonar o repositório
+git@github.com:FabioVV/case-angular.git
+cd case-angular
+
+# Instalar os pacotes do node
 npm install
-```
 
-and
-
-```bash
+# Rodar o server do Angular
 ng serve
+
 ```
+
