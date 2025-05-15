@@ -60,8 +60,57 @@
                     </div>
 
                 </div>
-                <div></div> <!--Essas duas Divs servem para fazer o layout do flex funcionar da forma que quero-->
-                <div></div>
+
+
+                <div class="person-card" *ngIf="isSubmited && !submitError">
+                    <div>
+                        <p class="card-title"><b>Conta aplicação</b></p>
+                        <small class="card-subitle">Cooperativa Viacredi</small>
+                    </div>
+
+                    <div class="card-content">
+                        <div>
+                            <img [src]="card">
+                        </div>
+                        <div>
+                            <small class="card-subitle">Número da conta</small>
+                            <p class="card-p-name">557932-4</p>
+                        </div>
+                    </div>
+
+                    <div class="card-content">
+                        <div class="card-link">
+                            <a href="#">Duplicar conta</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="person-card" *ngIf="isSubmited && !submitError">
+                    <div>
+                        <p class="card-title"><b>Conta corrente</b></p>
+                        <small class="card-subitle">Cooperativa Viacredi</small>
+                    </div>
+
+                    <div class="card-content">
+                        <div>
+                            <img [src]="card">
+                        </div>
+                        <div>
+                            <small class="card-subitle">Número da conta</small>
+                            <p class="card-p-name">778461-8</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card-content">
+                        <div class="card-link">
+                            <a href="#">Duplicar conta</a>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
 

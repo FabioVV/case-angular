@@ -30,6 +30,7 @@ export class AppComponent {
 
   user: string = "assets/icons/user.png"
   correct: string = "assets/icons/correct.png"
+  card: string = "assets/icons/card.png"
 
   onCpfChange(value: string): void { // MASK
     const digits = value.replace(/\D/g, '').substring(0, 11); // Remove all non digits chars

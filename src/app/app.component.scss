@@ -34,7 +34,10 @@ main {
 .content > div {
     display: flex;
     flex-direction: column;
+
 }
+
+
 
 .content > div  > p{
     margin: 0;
@@ -100,6 +103,7 @@ main {
     padding: 1rem;
     background-color: white;
     flex-wrap: wrap;
+    padding-right: 4rem;
 }
 
 .card-title{
@@ -114,7 +118,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
 }
 
 .card-p-name{
@@ -122,9 +126,14 @@ main {
 }
 
 .card-container{
-    display: flex;
-    flex-direction: row;
-    align-items: self-start;
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 10px;
+}
+
+.card-link > a{
+    text-decoration: none;
+    color: #125D79;
 }
 
 @media(max-width:640px){
